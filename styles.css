@@ -16,13 +16,8 @@ body {
 .post{
     background: white;
     margin-top: 50px;
-    width: 500px;
-    
+    width: 500px;   
 }
-
-
-
-
 
 .post h4, div.post p{
    
@@ -53,18 +48,12 @@ body {
   font-size: 2rem;
 }
 
-
 .post-img img {
-   width: 500px;
-   height: 400px;
+   width: 100%;
  }
 
-
-
-
-
 .post-body p{
- padding: 10px;
+ padding: 5px;
  display: flex;
 
  }
