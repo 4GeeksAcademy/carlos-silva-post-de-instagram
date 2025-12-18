@@ -1,21 +1,22 @@
 body {
   background: black;
-  margin: 50px;
-box-sizing: border-box;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 
   
- div.container  {
-  width: 500px;
-  margin:  auto;
- 
-
+ .container  {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-div.post{
+.post{
     background: white;
     margin-top: 50px;
+    width: 500px;
     
 }
 
@@ -23,66 +24,55 @@ div.post{
 
 
 
-div.post h4, div.post p{
+.post h4, div.post p{
    
     margin: 0;
     font-family: "Roboto", sans-serif;
     color:black;
    
 }
- div.post-header{
-     padding: 2%;
+.post-header{
+   padding: 10px;
    margin: 0;
    display: flex;
-   }
+   justify-content: space-between;
+   align-items: center;
+ }
 
-
-
-
-   div.post .post-header div:first-child {
-   display: inline-block;
-   width: 100%;
+.post-header-logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-div.post .post-header div:last-child {
-  display: inline-block;
-  width: 20%;
- 
-  text-align: right;
- 
+.post-header-logo i:first-child{
+  font-size: 2rem;
+}
+
+.post-header-icon{
+  font-size: 2rem;
 }
 
 
-
-
-div.post-img img {
+.post-img img {
    width: 500px;
    height: 400px;
-   
-   }
+ }
 
 
 
 
 
- div.post-body p{
- padding: 2%;
+.post-body p{
+ padding: 10px;
  display: flex;
 
  }
 
- div.post-icons-left{
- display: flex;
-justify-content: left;
-padding: 2%;
-
+.post-body-icons{
+  display: flex;  
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.5rem;
 }
- div.post-icons-right{
- display: flex;
-justify-content: right;
-padding-right: 2%;
-
-
-}
-
 
